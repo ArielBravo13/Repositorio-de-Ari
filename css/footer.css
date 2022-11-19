@@ -1,0 +1,71 @@
+/* imagen pre footer */
+
+
+
+.section-footer {
+    width: 100%;
+    background-image: url(../img/concierto.jpg);
+    background-size: cover;
+    background-position-y: 30%;
+    opacity: 0.8;
+}
+
+
+
+
+.img-txt-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+}
+
+.titulo-recitales,.brn-foo{
+    margin-top: 5%;
+}
+
+
+.btn-foo {
+    background: #dfb602;
+    padding: 8px 22px 12px 25px;
+    color: #000;
+    line-height: 2;
+    border-radius: 46px;
+    font-size: 0.5em;
+    display: inline-block;
+}
+
+.img-footer {
+    margin-bottom: 5%;
+}
+
+/* Finimagen pre footer */
+
+/* =============================================================== */
+
+/* Footer */
+
+.footer{
+    height: 250px;
+
+    background: rgb(39, 35, 35);
+}
+
+.footer-textos {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.footer-txt {
+    margin-top: 2%;
+}
+
+
+
+
+/* Fin Footer */

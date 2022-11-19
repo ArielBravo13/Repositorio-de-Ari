@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ========================================================== */
+/* nav */
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-nav {
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+
+@media (max-width: 660px) {
+    #navbarSupportedContent {
+        font-size: 11px;
+    }
+}
+/* fin nav */
+/* ========================================================== */
+/* slider */
+
+.d-none {
+    display: block !important;
+}
+
+.container-imagen-fondo1 {
+    height: 50vh;
+    background-image: url(../img/img-festt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+}
+
+.container-imagen-fondo2 {
+    height: 50vh;
+    background-image: url(../img/img-festtt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+.container-imagen-fondo3 {
+    height: 50vh;
+    background-image: url(../img/img-festttt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+.container-imagen-fondo4 {
+    height: 50vh;
+    background-image: url(../img/img-fest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+
+/*  fin slider */
+/* ========================================================== */
+/* cards */
+
+hr { 
+    width: 70%;
+    margin: 5% auto;
+}
+
+
+
+.container-main {
+    width: 100%;
+    max-height: 250px;
+}
+
+.container-titulo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-prox {
+    position: absolute;
+}
+
+.eventos {
+    font-size: 10em;
+    opacity: 0.1;
+    font-family: "Poppins",sans-serif;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: rgb(205 199 0 / 51%);
+    opacity: 0.4;
+}
+
+
+@media (max-width: 768px){
+    .eventos {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 500px){
+    .eventos {
+        font-size: 70px;
+    }
+}
+
+
+.card img {
+    max-width: 400px;
+    margin: auto;
+}
+
+#card-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+#button-vermas {
+    width: 150px;
+}
+
+
+
+
+@media (max-width: 767px){
+    #card-invisible2,#card-invisible3,#card-invisible4 {
+        display: none;
+    }
+}
+
+@media (max-width: 991px){
+    #card-invisible4 {
+        display: none;
+    }
+}
+
+@media (min-width: 992px){
+    #card-invisible4 {
+        display: block;
+    }
+}
+
+
+/* fin cards */
+/* ========================================================== */
+/* eventos */
+
+
+
+.imagen-fest img {
+    border-radius: 20px;
+    width: 85%;
+    margin: 5% 5%;
+}
+
+.texto-fest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-even {   
+    display: flex;
+    flex-direction: row-reverse
+}
+
+
+@media (max-width: 992px) {
+    #container-even {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* fin eventos */
+
+/* seccion lugares */
+
+.col-lg-2 {
+    min-height: 400px;
+}
+
+.col-lg-2,.arena {
+    background-image: url(../img/img/movistar.jpg);
+    background-size: cover;
+}
+/* fin seccion lugares */

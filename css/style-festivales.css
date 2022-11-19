@@ -1,0 +1,350 @@
+/* =============================================================== */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =============================================================== */
+
+/* =============================================================== */
+
+/* seccion main */
+
+
+
+/* eventos principales */
+
+
+
+
+.container-evento {  
+    margin: 0% 5%;    
+}
+
+
+.container-prox-eve {
+    height: 65vh ;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url(../img/CROCK.jpg);
+    background-size: auto;
+    background-position-y: 30%;
+    background-position-x: -55%;
+    margin-bottom: 2%;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 5px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* .title-eve {
+    font-size: 6em;
+    opacity: .9;
+    color: #fff;
+    margin-bottom: 8%;
+    text-shadow: 12px 10px rgba(255, 0, 0, 0.568);
+} */
+
+.container-titulo-ubi {
+    margin-left: 2%;
+    margin-bottom: 3%;
+    font-size: 3em;    
+    color: #fff;
+}
+
+
+.container-titulo-ubi {
+    text-align: start;
+    padding-top: 0.8%;
+    text-shadow: 5px 5px rgba(255, 0, 0, 0.39);
+}
+
+
+
+
+
+
+/* fin eventos principales */
+
+
+
+
+
+
+/* bandas importantes */
+
+
+section .container-bandas {
+    height: 55vh;
+    margin: 0% 5%;
+}
+
+
+.container-bandas-img {
+    display: flex;
+}
+
+.img-primer-banda {
+    height: 55vh ;
+    width: 65%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url(../img/lollapaloza.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 5px;
+    margin: 0% 1%;   
+}
+
+.img-segunda-banda {
+    height: 55vh ;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url(../img/baradero.jpg);
+    background-size: auto;
+    background-position-x: 10%;
+    background-position-y: 20%;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 5px;
+    margin: 0% 1%;   
+ 
+}
+
+.container-texto-banda {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+    text-shadow: 5px 5px rgba(24, 14, 14, 0.39);
+    margin-bottom: 3%;
+}
+
+.title-banda {
+    margin-left: 5%;
+}
+
+.titulo-banda {
+    margin-left: 5%;
+}
+
+.container-texto-bad {
+    margin-bottom: 2%;
+}
+
+.container-texto-bad h3{
+    margin-bottom: 22%;
+}
+
+
+.card-banda {
+    font-size: 4.5em;
+    opacity: 0.9;
+    margin-bottom: 10%;
+}
+
+.container-titulo-banda {
+    font-size: 2em;
+}
+
+ .container-bandas-img button {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.btnvermas {
+    background-color: #FFD100;
+    color: #000;
+    border: none;
+    font-family: Poppins, sans-serif;
+    width: 100%;    
+    cursor: pointer;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnvermas:hover {
+    background-color: #be9c04e0;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Fin bandas importantes */
+
+
+
+
+
+
+
+main {
+    max-height: 900px;
+    margin-top: 5%;
+}
+
+.container-main {
+    width: 100%;
+    height: 250px;
+}
+
+.container-titulo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-prox {
+    position: absolute;
+}
+
+.eventos {
+    font-size: 10em;
+    opacity: 0.1;
+    font-family: "Poppins",sans-serif;
+    /* color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(50, 50, 50, 0.404);
+    opacity: 0.4; */
+}
+
+
+
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 9%;
+}
+
+
+.card {
+    width: 18rem;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card img {
+    width: 70%;
+    margin-top: 10%;
+}
+.card-body {
+    background-color: #fff;
+    
+}
+
+.btnvermas {
+    background-color: #FFD100;
+    color: #000;
+    border: none;
+    font-family: Poppins, sans-serif;
+    width: 100%;    
+    cursor: pointer;
+    height: 30px;
+}
+
+.btnvermas:hover {
+    background-color: #be9c04e0;
+    color: #fff;
+}
+
+
+
+
+/* Fin seccion main */
+/* =============================================================== */
+
+/* imagen pre footer */
+
+
+.section-footer {
+    width: 100%;
+    background-image: url(../img/concierto.jpg);
+    background-size: cover;
+    background-position-y: 30%;
+    opacity: 0.8;
+    margin-top: 10%;
+}
+
+
+
+
+.img-txt-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+}
+
+.titulo-recitales,.brn-foo{
+    margin-top: 5%;
+}
+
+
+.btn-foo {
+    background: #dfb602;
+    padding: 8px 22px 12px 25px;
+    color: #000;
+    line-height: 2;
+    border-radius: 46px;
+    font-size: 0.5em;
+    display: inline-block;
+}
+
+.img-footer {
+    margin-bottom: 5%;
+}
+
+/* Finimagen pre footer */
+
+/* =============================================================== */
+
+/* Footer */
+
+.footer{
+    height: 250px;
+    background: rgb(39, 35, 35);
+}
+
+.footer-textos {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.footer-txt {
+    margin-top: 2%;
+}
+
+
+
+
+/* Fin Footer */

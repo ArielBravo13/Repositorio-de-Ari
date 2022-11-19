@@ -1,0 +1,156 @@
+/* =============================================================== */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =============================================================== */
+
+/* Seccion imagen lugar y eventos */
+
+.container-img-lugar {
+    margin: 0% 5%;
+}
+
+
+.container-img-lugar-uno {
+    background-image: url(../img/movistar-arena.jpg);
+    background-size: auto;
+    font-size: 6em;
+    text-align: center;
+    color: #fff;    
+    text-shadow: 5px 10px #000;
+    height: 45vh;
+    background-color: brown;
+    margin: 3% 0%;
+    border-radius: 5vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.arena {
+    opacity: .9;
+}
+
+
+.arena-parrafo {
+    opacity: 0.9;
+}
+
+
+
+.container-titulo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-prox {
+    position: absolute;
+}
+
+.eventos {
+    font-size: 10em;
+    opacity: 0.1;
+    font-family: "Poppins",sans-serif;
+    /* color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(50, 50, 50, 0.404);
+    opacity: 0.4; */
+}
+
+
+
+.container-bandas {
+    /* background: #dfb602; */
+    width: 100%;
+    height: 65vh;
+    margin: 5% 0%;
+    padding: 2% 5%;
+}
+
+
+.container-tres-bandas {
+    display: flex;
+}
+
+.container-banda img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+
+.container-banda {
+    width: 100%;
+    margin: 0% 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.027);
+}
+
+.container-banda h4,h2 {
+    font-size: 1.5em;
+    margin: 5% 0%;
+}
+
+
+.btnvermas {
+    background-color: #FFD100;
+    color: #000;
+    border: none;
+    font-family: Poppins, sans-serif;
+    width: 100%;    
+    cursor: pointer;
+    height: 30px;
+}
+
+.btnvermas:hover {
+    background-color: #be9c04e0;
+    color: #fff;
+}
+
+.button-ver-mas {
+    display: flex;
+    justify-content: center;
+    align-content: center ;
+    margin-top: 10%;
+}
+
+
+
+
+.button-mas {
+    background-color: #FFD100;
+    color: #000;
+    border: none;
+    font-family: Poppins, sans-serif;
+    width: 300px;    
+    cursor: pointer;
+    height: 50px;
+    margin-bottom: 15%;
+}
+
+
+
+.button-mas:hover {
+    background-color: #be9c04e0;
+    color: #fff;
+}
+
+/* Fin Seccion imagen lugar y eventos */
+
+
+
+
+
+
+
